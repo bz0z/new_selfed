@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<title>TODO list</title>
+</head>
+<body>
+<a href="http://localhost:3000/">Index</a>
+<form action="http://localhost:3000/task_server" method="post">
+	<label for="title">Title:</label>
+  <input type="text" id="title" name="title" placeholder="Enter the title" />
+  
+  <label for="time">Time:</label>
+  <input type="time" id="time" name="time" placeholder="Enter the time" />
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" placeholder="Enter the message"></textarea>
+
+  <input type="submit" value="Send message" />
+</form>
+</body>
+</html>
